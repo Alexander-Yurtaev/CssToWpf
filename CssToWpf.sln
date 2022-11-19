@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoCenter", "DemoCenter\DemoCenter.csproj", "{4FB03B75-6455-4C08-8276-ED6550ED8ECA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{8FAC682C-F9C7-48C6-9273-AB41012F35AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WpfControls", "WpfControls", "{CCF6F2FB-50A8-4253-B03A-6568D941E8BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWpfCustomControlLibrary", "WpfControls\TestWpfCustomControlLibrary\TestWpfCustomControlLibrary.csproj", "{F9CCF4F9-162C-45E7-AD69-88A5F1C7F05C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestModule", "Modules\TestModule\TestModule.csproj", "{2F198B25-0AE2-402C-BDDE-C682DB18217B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CssToWpf.Core", "CssToWpf.Core\CssToWpf.Core.csproj", "{57141C9B-C8E8-4B15-A635-744106777B40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FB03B75-6455-4C08-8276-ED6550ED8ECA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FB03B75-6455-4C08-8276-ED6550ED8ECA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FB03B75-6455-4C08-8276-ED6550ED8ECA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FB03B75-6455-4C08-8276-ED6550ED8ECA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9CCF4F9-162C-45E7-AD69-88A5F1C7F05C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9CCF4F9-162C-45E7-AD69-88A5F1C7F05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9CCF4F9-162C-45E7-AD69-88A5F1C7F05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9CCF4F9-162C-45E7-AD69-88A5F1C7F05C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F198B25-0AE2-402C-BDDE-C682DB18217B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F198B25-0AE2-402C-BDDE-C682DB18217B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F198B25-0AE2-402C-BDDE-C682DB18217B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F198B25-0AE2-402C-BDDE-C682DB18217B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57141C9B-C8E8-4B15-A635-744106777B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57141C9B-C8E8-4B15-A635-744106777B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57141C9B-C8E8-4B15-A635-744106777B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57141C9B-C8E8-4B15-A635-744106777B40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F9CCF4F9-162C-45E7-AD69-88A5F1C7F05C} = {CCF6F2FB-50A8-4253-B03A-6568D941E8BD}
+		{2F198B25-0AE2-402C-BDDE-C682DB18217B} = {8FAC682C-F9C7-48C6-9273-AB41012F35AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ADE893A-5718-4465-B828-F7C772E04C0F}
+	EndGlobalSection
+EndGlobal

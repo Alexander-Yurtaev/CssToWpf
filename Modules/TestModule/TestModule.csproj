@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.Wpf" Version="8.1.97" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CssToWpf.Core\CssToWpf.Core.csproj" />
+    <ProjectReference Include="..\..\WpfControls\TestWpfCustomControlLibrary\TestWpfCustomControlLibrary.csproj" />
+  </ItemGroup>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="@echo START&#xD;&#xA;@echo TargetPath:   $(TargetPath)&#xD;&#xA;@echo TargetDir:    $(TargetDir)&#xD;&#xA;@echo SolutionDir:  $(SolutionDir)&#xD;&#xA;@echo AssemblyName: $(AssemblyName)&#xD;&#xA;@echo OutDir:       $(OutDir)&#xD;&#xA;@echo END&#xD;&#xA;&#xD;&#xA;xcopy &quot;$(TargetDir)*.dll&quot; &quot;$(SolutionDir)DemoCenter\$(OutDir)Modules\$(AssemblyName)\&quot; /y /r /i /d" />
+  </Target>
+</Project>
